@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/TrafficForecast.iml" filepath="$PROJECT_DIR$/TrafficForecast.iml" />
+      <module fileurl="file://$PROJECT_DIR$/tf_consumer/tf_consumer.iml" filepath="$PROJECT_DIR$/tf_consumer/tf_consumer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/tf_modeling/tf_modeling.iml" filepath="$PROJECT_DIR$/tf_modeling/tf_modeling.iml" />
+      <module fileurl="file://$PROJECT_DIR$/tf_producer/tf_producer.iml" filepath="$PROJECT_DIR$/tf_producer/tf_producer.iml" />
+    </modules>
+  </component>
+</project>

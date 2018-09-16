@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="aaa" />
+        <module name="tf_consumer" />
+        <module name="tf_modeling" />
+        <module name="tf_producer" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="aaa" target="1.5" />
+      <module name="tf_consumer" target="1.5" />
+      <module name="tf_modeling" target="1.5" />
+      <module name="tf_produce" target="1.5" />
+      <module name="tf_produce2" target="1.5" />
+      <module name="tf_producer" target="1.5" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

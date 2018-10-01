@@ -35,7 +35,8 @@ SparkMLlib智慧交通项目
 --zookeeper mini1:2181 \
 --topic traffic \
 --from-beginning
-6. 运行程序Producer
+6. 运行程序Producer<br><br>
+![produce](https://github.com/linwt/TrafficForecast-SparkMLlib/blob/master/picture/produce.png)
 ### 消费者模块
 - 功能：消费kafka数据，并将处理后的数据存储到Redis中
 - 操作步骤
@@ -46,10 +47,12 @@ SparkMLlib智慧交通项目
 3. 查看Redis数据库
 > 127.0.0.1:6379> select 1 \
 > 127.0.0.1:6379[1]> keys *	\
-> 127.0.0.1:6379[1]> hgetall “20180412_0001”
+> 127.0.0.1:6379[1]> hgetall “20180823_0015”<br><br>
+![redis](https://github.com/linwt/TrafficForecast-SparkMLlib/blob/master/picture/redis.png)
 ### 数据建模模块
 - 功能：读取Redis数据库数据，进行数据建模，并将模型保存到hdfs
 - 操作步骤
 1. 运行程序Train
 2. web访问hdfs，查看保存结果
-> mini1:50070
+> mini1:50070<br><br>
+![labelPoint](https://github.com/linwt/TrafficForecast-SparkMLlib/blob/master/picture/labelPoint.png)
